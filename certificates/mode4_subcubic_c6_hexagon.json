@@ -1,0 +1,44 @@
+{
+  "schema": "NOGO-PSPACE-CERT-1.0",
+  "mode": "subcubic_bipartite_graph_nogo",
+  "name": "mode4_subcubic_c6_hexagon",
+  "num_verts": 6,
+  "edges": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      5,
+      0
+    ]
+  ],
+  "board": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "to_move": 1,
+  "claimed_max_degree": 2,
+  "claimed_winner": 2,
+  "claimed_winning_move": null
+}

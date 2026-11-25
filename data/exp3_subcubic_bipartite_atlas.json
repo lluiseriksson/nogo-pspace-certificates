@@ -1,0 +1,64 @@
+{
+  "graphs": [
+    {
+      "graph": "P_6",
+      "verts": 6,
+      "edges": 5,
+      "max_degree": 2,
+      "normal_winner": "Black",
+      "normal_states": 28,
+      "misere_winner": "Black",
+      "misere_states": 46
+    },
+    {
+      "graph": "C_6",
+      "verts": 6,
+      "edges": 6,
+      "max_degree": 2,
+      "normal_winner": "White",
+      "normal_states": 63,
+      "misere_winner": "White",
+      "misere_states": 118
+    },
+    {
+      "graph": "K_{3,3}",
+      "verts": 6,
+      "edges": 9,
+      "max_degree": 3,
+      "normal_winner": "Black",
+      "normal_states": 30,
+      "misere_winner": "White",
+      "misere_states": 54
+    },
+    {
+      "graph": "C_8",
+      "verts": 8,
+      "edges": 8,
+      "max_degree": 2,
+      "normal_winner": "White",
+      "normal_states": 598,
+      "misere_winner": "White",
+      "misere_states": 458
+    },
+    {
+      "graph": "Q_3",
+      "verts": 8,
+      "edges": 12,
+      "max_degree": 3,
+      "normal_winner": "Black",
+      "normal_states": 155,
+      "misere_winner": "White",
+      "misere_states": 212
+    },
+    {
+      "graph": "L_8",
+      "verts": 8,
+      "edges": 10,
+      "max_degree": 3,
+      "normal_winner": "White",
+      "normal_states": 310,
+      "misere_winner": "Black",
+      "misere_states": 385
+    }
+  ]
+}

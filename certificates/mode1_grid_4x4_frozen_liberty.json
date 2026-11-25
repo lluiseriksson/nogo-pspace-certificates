@@ -1,0 +1,37 @@
+{
+  "schema": "NOGO-PSPACE-CERT-1.0",
+  "mode": "nogo_board_legality_and_reachability",
+  "name": "mode1_grid_4x4_frozen_liberty",
+  "rows": 4,
+  "cols": 4,
+  "target_board": [
+    2,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    2,
+    2
+  ],
+  "play_sequence": [
+    2,
+    0,
+    4,
+    15,
+    5,
+    14,
+    6,
+    11
+  ],
+  "claimed_black_moves": 7,
+  "claimed_white_moves": 7
+}

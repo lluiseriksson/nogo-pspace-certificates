@@ -1,0 +1,28 @@
+{
+  "schema": "NOGO-PSPACE-CERT-1.0",
+  "mode": "nogo_board_legality_and_reachability",
+  "name": "mode1_grid_3x3_balanced_reachability",
+  "rows": 3,
+  "cols": 3,
+  "target_board": [
+    1,
+    2,
+    2,
+    0,
+    1,
+    0,
+    2,
+    0,
+    1
+  ],
+  "play_sequence": [
+    0,
+    2,
+    4,
+    6,
+    8,
+    1
+  ],
+  "claimed_black_moves": 2,
+  "claimed_white_moves": 1
+}

@@ -1,0 +1,213 @@
+{
+  "total": 16,
+  "certificates": [
+    {
+      "name": "mode1_grid_3x3_balanced_reachability",
+      "mode": "nogo_board_legality_and_reachability",
+      "verify_ms": 0.076,
+      "summary": {
+        "verified": true,
+        "mode": "nogo_board_legality_and_reachability",
+        "grid": "3x3",
+        "plies_replayed": 6,
+        "black_legal_moves": 2,
+        "white_legal_moves": 1
+      }
+    },
+    {
+      "name": "mode1_grid_4x4_frozen_liberty",
+      "mode": "nogo_board_legality_and_reachability",
+      "verify_ms": 0.071,
+      "summary": {
+        "verified": true,
+        "mode": "nogo_board_legality_and_reachability",
+        "grid": "4x4",
+        "plies_replayed": 8,
+        "black_legal_moves": 7,
+        "white_legal_moves": 7
+      }
+    },
+    {
+      "name": "mode1_grid_5x5_white_reserve",
+      "mode": "nogo_board_legality_and_reachability",
+      "verify_ms": 0.09,
+      "summary": {
+        "verified": true,
+        "mode": "nogo_board_legality_and_reachability",
+        "grid": "5x5",
+        "plies_replayed": 12,
+        "black_legal_moves": 9,
+        "white_legal_moves": 13
+      }
+    },
+    {
+      "name": "mode1_grid_6x6_wire_channel",
+      "mode": "nogo_board_legality_and_reachability",
+      "verify_ms": 0.117,
+      "summary": {
+        "verified": true,
+        "mode": "nogo_board_legality_and_reachability",
+        "grid": "6x6",
+        "plies_replayed": 12,
+        "black_legal_moves": 24,
+        "white_legal_moves": 24
+      }
+    },
+    {
+      "name": "mode2_grid_3x3_empty_normal",
+      "mode": "b2cl_gadget_minimax_normal_misere",
+      "verify_ms": 4.979,
+      "summary": {
+        "verified": true,
+        "mode": "b2cl_gadget_minimax_normal_misere",
+        "ruleset": "normal",
+        "empty_cells": 9,
+        "winner": 1,
+        "states_evaluated": 533
+      }
+    },
+    {
+      "name": "mode2_grid_3x3_empty_misere",
+      "mode": "b2cl_gadget_minimax_normal_misere",
+      "verify_ms": 6.495,
+      "summary": {
+        "verified": true,
+        "mode": "b2cl_gadget_minimax_normal_misere",
+        "ruleset": "misere",
+        "empty_cells": 9,
+        "winner": 1,
+        "states_evaluated": 918
+      }
+    },
+    {
+      "name": "mode2_grid_4x3_wire_goal_normal",
+      "mode": "b2cl_gadget_minimax_normal_misere",
+      "verify_ms": 0.472,
+      "summary": {
+        "verified": true,
+        "mode": "b2cl_gadget_minimax_normal_misere",
+        "ruleset": "normal",
+        "empty_cells": 6,
+        "winner": 2,
+        "states_evaluated": 69
+      }
+    },
+    {
+      "name": "mode2_grid_4x3_wire_goal_misere",
+      "mode": "b2cl_gadget_minimax_normal_misere",
+      "verify_ms": 0.508,
+      "summary": {
+        "verified": true,
+        "mode": "b2cl_gadget_minimax_normal_misere",
+        "ruleset": "misere",
+        "empty_cells": 6,
+        "winner": 2,
+        "states_evaluated": 89
+      }
+    },
+    {
+      "name": "mode3_lava_diamond_parity",
+      "mode": "coins_are_lava_exact_minimax",
+      "verify_ms": 0.173,
+      "summary": {
+        "verified": true,
+        "mode": "coins_are_lava_exact_minimax",
+        "num_coins": 4,
+        "num_strings": 7,
+        "winner": 1,
+        "states_evaluated": 21
+      }
+    },
+    {
+      "name": "mode3_lava_var_path_clause",
+      "mode": "coins_are_lava_exact_minimax",
+      "verify_ms": 0.06,
+      "summary": {
+        "verified": true,
+        "mode": "coins_are_lava_exact_minimax",
+        "num_coins": 5,
+        "num_strings": 7,
+        "winner": 2,
+        "states_evaluated": 14
+      }
+    },
+    {
+      "name": "mode3_lava_rope_majority",
+      "mode": "coins_are_lava_exact_minimax",
+      "verify_ms": 0.657,
+      "summary": {
+        "verified": true,
+        "mode": "coins_are_lava_exact_minimax",
+        "num_coins": 6,
+        "num_strings": 10,
+        "winner": 1,
+        "states_evaluated": 158
+      }
+    },
+    {
+      "name": "mode3_lava_worked_cnf_mini",
+      "mode": "coins_are_lava_exact_minimax",
+      "verify_ms": 1.138,
+      "summary": {
+        "verified": true,
+        "mode": "coins_are_lava_exact_minimax",
+        "num_coins": 8,
+        "num_strings": 13,
+        "winner": 2,
+        "states_evaluated": 321
+      }
+    },
+    {
+      "name": "mode4_subcubic_c6_hexagon",
+      "mode": "subcubic_bipartite_graph_nogo",
+      "verify_ms": 0.239,
+      "summary": {
+        "verified": true,
+        "mode": "subcubic_bipartite_graph_nogo",
+        "num_verts": 6,
+        "max_degree": 2,
+        "winner": 2,
+        "states_evaluated": 63
+      }
+    },
+    {
+      "name": "mode4_subcubic_q3_cube",
+      "mode": "subcubic_bipartite_graph_nogo",
+      "verify_ms": 1.489,
+      "summary": {
+        "verified": true,
+        "mode": "subcubic_bipartite_graph_nogo",
+        "num_verts": 8,
+        "max_degree": 3,
+        "winner": 1,
+        "states_evaluated": 155
+      }
+    },
+    {
+      "name": "mode4_subcubic_k33_biclique",
+      "mode": "subcubic_bipartite_graph_nogo",
+      "verify_ms": 0.246,
+      "summary": {
+        "verified": true,
+        "mode": "subcubic_bipartite_graph_nogo",
+        "num_verts": 6,
+        "max_degree": 3,
+        "winner": 1,
+        "states_evaluated": 30
+      }
+    },
+    {
+      "name": "mode4_subcubic_10v_ladder",
+      "mode": "subcubic_bipartite_graph_nogo",
+      "verify_ms": 1.235,
+      "summary": {
+        "verified": true,
+        "mode": "subcubic_bipartite_graph_nogo",
+        "num_verts": 10,
+        "max_degree": 3,
+        "winner": 2,
+        "states_evaluated": 255
+      }
+    }
+  ]
+}

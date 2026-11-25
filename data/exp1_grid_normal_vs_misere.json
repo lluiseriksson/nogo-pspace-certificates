@@ -1,0 +1,64 @@
+{
+  "grids": [
+    {
+      "grid": "2x2",
+      "verts": 4,
+      "normal_winner": "Black",
+      "normal_first_move": 0,
+      "normal_states": 8,
+      "normal_ms": 0.027,
+      "misere_winner": "White",
+      "misere_first_move": null,
+      "misere_states": 12,
+      "misere_ms": 0.034
+    },
+    {
+      "grid": "2x3",
+      "verts": 6,
+      "normal_winner": "White",
+      "normal_first_move": null,
+      "normal_states": 78,
+      "normal_ms": 0.34,
+      "misere_winner": "White",
+      "misere_first_move": null,
+      "misere_states": 82,
+      "misere_ms": 0.272
+    },
+    {
+      "grid": "2x4",
+      "verts": 8,
+      "normal_winner": "White",
+      "normal_first_move": null,
+      "normal_states": 310,
+      "normal_ms": 1.285,
+      "misere_winner": "Black",
+      "misere_first_move": 1,
+      "misere_states": 385,
+      "misere_ms": 1.631
+    },
+    {
+      "grid": "3x3",
+      "verts": 9,
+      "normal_winner": "Black",
+      "normal_first_move": 0,
+      "normal_states": 533,
+      "normal_ms": 2.576,
+      "misere_winner": "Black",
+      "misere_first_move": 4,
+      "misere_states": 918,
+      "misere_ms": 4.528
+    },
+    {
+      "grid": "2x5",
+      "verts": 10,
+      "normal_winner": "Black",
+      "normal_first_move": 1,
+      "normal_states": 1396,
+      "normal_ms": 6.906,
+      "misere_winner": "Black",
+      "misere_first_move": 0,
+      "misere_states": 1010,
+      "misere_ms": 5.199
+    }
+  ]
+}

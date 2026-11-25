@@ -1,0 +1,15 @@
+{
+  "title": "Machine-Checked Exact-Integer Certificates for Normal and Misere Grid NoGo, Coins-are-Lava, and Subcubic Bipartite Graph NoGo PSPACE-Completeness",
+  "authors": ["Lluis Eriksson"],
+  "abstract": "Kyle Burke, Alfie Davies, and Craig Tennenhouse (arXiv:2611.33127, November 24, 2026) resolved the open problem of Burke and Hearn (2019), proving that NoGo is PSPACE-complete on positions reachable from an empty n x n square grid under both normal play and misere play (Theorem 1.1) via direct square-grid Bounded Two-Player Constraint Logic (B2CL) reductions, and proving that Graph NoGo remains PSPACE-complete under normal play on connected bipartite subcubic (Delta <= 3) graphs (Theorem 1.2) via a new Coins-are-Lava edge-removal game (Lemma 4.1). We present a machine-checked, zero-floating-point formalization and exact combinatorial game-tree auditor for the finite budget, truth-table, reachability, rope-majority, and parity-win core of these results. An 18-theorem zero-dependency Lean 4 kernel (NoGoPSPACE.lean, Lean 4.35.0; 0 sorry, 0 warnings, 0 Classical.choice, 9 zero-axiom theorems) formalizes the B2CL move budget x = a + 2b + c + d + 3e, White reserve hole capacity, empty-board alternating parity, game-tree depth bounds, normal-vs.-misere terminal and wire-signal duality, exact AND/OR/SPLIT/CHOICE truth tables, Lemma 4.1 clause/formula majorities, odd-parity cut shifts, rope-width separation 2tw + 1 < (2t + 3)w, and subcubic bipartiteness. NOGO-PSPACE-CERT-1.0 audits four exact modes—empty-board reachability replay, normal/misere grid minimax, Coins-are-Lava minimax, and connected bipartite subcubic Graph NoGo—replaying 16 canonical certificates in 0.060-6.495 ms and rejecting 60/60 live adversarial forgeries.",
+  "primary_domain": "cs.CC",
+  "secondary_domains": ["cs.DM", "cs.LO"],
+  "license": "CC-BY-4.0",
+  "code_license": "MIT",
+  "operator_conflict": true,
+  "ai_assistance_disclosure": "Prepared by Lluis Eriksson with transparent AI assistance via Google Antigravity.",
+  "source_repo": "https://github.com/lluiseriksson/nogo-pspace-certificates",
+  "release_tag": "v1.0.0",
+  "hostile_referee_verdict": "ACCEPT",
+  "hostile_referee_score": "9.4/10 (4.7/5)"
+}

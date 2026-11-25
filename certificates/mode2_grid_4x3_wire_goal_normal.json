@@ -1,0 +1,25 @@
+{
+  "schema": "NOGO-PSPACE-CERT-1.0",
+  "mode": "b2cl_gadget_minimax_normal_misere",
+  "name": "mode2_grid_4x3_wire_goal_normal",
+  "rows": 4,
+  "cols": 3,
+  "ruleset": "normal",
+  "to_move": 1,
+  "board": [
+    1,
+    1,
+    1,
+    0,
+    2,
+    0,
+    1,
+    2,
+    0,
+    0,
+    0,
+    0
+  ],
+  "claimed_winner": 2,
+  "claimed_winning_move": null
+}

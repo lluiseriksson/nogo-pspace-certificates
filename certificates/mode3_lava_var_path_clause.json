@@ -1,0 +1,40 @@
+{
+  "schema": "NOGO-PSPACE-CERT-1.0",
+  "mode": "coins_are_lava_exact_minimax",
+  "name": "mode3_lava_var_path_clause",
+  "num_coins": 5,
+  "strings": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      4
+    ]
+  ],
+  "to_move": 1,
+  "claimed_winner": 2,
+  "claimed_winning_string_idx": null,
+  "claimed_legal_cuts": 6
+}

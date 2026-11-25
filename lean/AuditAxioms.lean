@@ -1,0 +1,20 @@
+import NoGoPSPACE
+
+#print axioms NoGoPSPACE.normal_play_move_budget_exact
+#print axioms NoGoPSPACE.white_reserve_hole_capacity
+#print axioms NoGoPSPACE.empty_board_reachability_parity
+#print axioms NoGoPSPACE.nogo_game_tree_depth_bound
+#print axioms NoGoPSPACE.normal_vs_misere_terminal_duality
+#print axioms NoGoPSPACE.normal_vs_misere_wire_inversion
+#print axioms NoGoPSPACE.b2cl_and_gate_truth_table
+#print axioms NoGoPSPACE.b2cl_or_gate_truth_table
+#print axioms NoGoPSPACE.b2cl_split_gate_duality
+#print axioms NoGoPSPACE.b2cl_choice_gate_exclusivity
+#print axioms NoGoPSPACE.misere_or_and_gate_exact
+#print axioms NoGoPSPACE.coins_are_lava_clause_majority
+#print axioms NoGoPSPACE.coins_are_lava_formula_majority
+#print axioms NoGoPSPACE.coins_are_lava_odd_parity_shift
+#print axioms NoGoPSPACE.coins_are_lava_rope_majority_win
+#print axioms NoGoPSPACE.subcubic_bipartite_degree_bound
+#print axioms NoGoPSPACE.legal_cut_degree_invariant
+#print axioms NoGoPSPACE.nogo_gadget_budget_concrete_check

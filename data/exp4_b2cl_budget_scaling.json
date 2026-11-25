@@ -1,0 +1,76 @@
+{
+  "scaling": [
+    {
+      "scale_k": 1,
+      "a_var": 1,
+      "x_black_budget": 8,
+      "white_var_moves": 1,
+      "white_reserve_moves": 7,
+      "white_reserve_holes": 8,
+      "black_win_moves": 9
+    },
+    {
+      "scale_k": 2,
+      "a_var": 2,
+      "x_black_budget": 16,
+      "white_var_moves": 2,
+      "white_reserve_moves": 14,
+      "white_reserve_holes": 15,
+      "black_win_moves": 17
+    },
+    {
+      "scale_k": 3,
+      "a_var": 3,
+      "x_black_budget": 24,
+      "white_var_moves": 3,
+      "white_reserve_moves": 21,
+      "white_reserve_holes": 22,
+      "black_win_moves": 25
+    },
+    {
+      "scale_k": 4,
+      "a_var": 4,
+      "x_black_budget": 32,
+      "white_var_moves": 4,
+      "white_reserve_moves": 28,
+      "white_reserve_holes": 29,
+      "black_win_moves": 33
+    },
+    {
+      "scale_k": 5,
+      "a_var": 5,
+      "x_black_budget": 40,
+      "white_var_moves": 5,
+      "white_reserve_moves": 35,
+      "white_reserve_holes": 36,
+      "black_win_moves": 41
+    },
+    {
+      "scale_k": 6,
+      "a_var": 6,
+      "x_black_budget": 48,
+      "white_var_moves": 6,
+      "white_reserve_moves": 42,
+      "white_reserve_holes": 43,
+      "black_win_moves": 49
+    },
+    {
+      "scale_k": 7,
+      "a_var": 7,
+      "x_black_budget": 56,
+      "white_var_moves": 7,
+      "white_reserve_moves": 49,
+      "white_reserve_holes": 50,
+      "black_win_moves": 57
+    },
+    {
+      "scale_k": 8,
+      "a_var": 8,
+      "x_black_budget": 64,
+      "white_var_moves": 8,
+      "white_reserve_moves": 56,
+      "white_reserve_holes": 57,
+      "black_win_moves": 65
+    }
+  ]
+}

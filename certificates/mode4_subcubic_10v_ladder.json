@@ -1,0 +1,76 @@
+{
+  "schema": "NOGO-PSPACE-CERT-1.0",
+  "mode": "subcubic_bipartite_graph_nogo",
+  "name": "mode4_subcubic_10v_ladder",
+  "num_verts": 10,
+  "edges": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      8,
+      9
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      2,
+      7
+    ],
+    [
+      3,
+      8
+    ],
+    [
+      4,
+      9
+    ]
+  ],
+  "board": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2
+  ],
+  "to_move": 1,
+  "claimed_max_degree": 3,
+  "claimed_winner": 2,
+  "claimed_winning_move": null
+}
